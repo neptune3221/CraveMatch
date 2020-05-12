@@ -4,14 +4,15 @@
   "description": "helps you pick where to eat",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "Neptune",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "socket.io": "^2.3.0",
-    "websocket": "^1.0.31"
+    "websocket": "^1.0.31",
+    "request": "^2.88.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
