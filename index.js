@@ -92,6 +92,9 @@ io.on('connection', (socket) => {
       console.log(business.name);
       socket.businesses = businesses;
 
+      const roomCode = socket.roomCode;
+      console.log('roomcode', roomCode);
+
       //set votes to zero
       voteCounter[roomCode] = Object.create(vote);
       voteCounter[roomCode].yes = 0;
